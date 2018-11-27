@@ -1,0 +1,38 @@
+{
+  "//1": "Testing discord bot hosting",
+  "//2": "Using glitch.com free hosting services",
+  "//3": "Possible problems with app sleep timeouts",
+  "name": "mikes-bot",
+  "version": "0.3.0",
+  "description": "Discord Bot crafted for use on the Heroes Discord Server.",
+  "main": "mainbot.js",
+  "author": "Mike (thejumper777)",
+  "scripts": {
+    "start": "node mainbot.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.2.4",
+    "enmap-sqlite": "^2.0.5",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "ontime": "^0.0.6",
+    "sequelize": "^4.38.1",
+    "sqlite3": "^4.0.2",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "null"
+  },
+  "license": "todo",
+  "keywords": [
+    "node",
+    "glitch",
+    "discord"
+  ]
+}
