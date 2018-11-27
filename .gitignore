@@ -1,6 +1,7 @@
 /.config
 /.data
 /data
+/node_modules
 .env
 .node-gyp
 package-lock.json
